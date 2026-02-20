@@ -258,6 +258,24 @@ ul { list-style: none; }
   color: #fff;
 }
 
+/* button reset so <button> matches <a> nav links */
+button.nav__link,
+button.nav__mobile-link {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  text-align: left;
+}
+
+.nav__link--cta.is-copied,
+.nav__mobile-link.is-copied {
+  background: #22c55e;
+  color: #fff;
+}
+
 .nav__burger {
   display: none;
   flex-direction: column;

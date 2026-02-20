@@ -196,3 +196,21 @@ const statsObserver = new IntersectionObserver((entries) => {
 document.querySelectorAll('.stat__number[data-count]').forEach(el => {
   statsObserver.observe(el);
 });
+
+/* ============================================
+   COPY EMAIL TO CLIPBOARD
+   ============================================ */
+document.querySelectorAll('.js-copy-email').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const email = btn.dataset.email;
+    navigator.clipboard.writeText(email).then(() => {
+      const original = btn.textContent;
+      btn.textContent = 'Copied!';
+      btn.classList.add('is-copied');
+      setTimeout(() => {
+        btn.textContent = original;
+        btn.classList.remove('is-copied');
+      }, 2000);
+    });
+  });
+});
