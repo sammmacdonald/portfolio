@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sam MacDonald — Product Marketing Manager</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#hero" class="nav__logo">SM</a>
+      <ul class="nav__links">
+        <li><a href="#about" class="nav__link">About</a></li>
+        <li><a href="#skills" class="nav__link">Skills</a></li>
+        <li><a href="#experience" class="nav__link">Experience</a></li>
+        <li><a href="#education" class="nav__link">Education</a></li>
+        <li><a href="#contact" class="nav__link nav__link--cta">Get in touch</a></li>
+      </ul>
+      <button class="nav__burger" id="navBurger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="nav__mobile" id="navMobile">
+      <a href="#about" class="nav__mobile-link">About</a>
+      <a href="#skills" class="nav__mobile-link">Skills</a>
+      <a href="#experience" class="nav__mobile-link">Experience</a>
+      <a href="#education" class="nav__mobile-link">Education</a>
+      <a href="#contact" class="nav__mobile-link">Get in touch</a>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <div class="hero__bg">
+      <div class="hero__orb hero__orb--1"></div>
+      <div class="hero__orb hero__orb--2"></div>
+      <div class="hero__orb hero__orb--3"></div>
+    </div>
+    <div class="hero__content">
+      <p class="hero__eyebrow reveal">Product Marketing Manager</p>
+      <h1 class="hero__name reveal">Sam MacDonald</h1>
+      <p class="hero__tagline reveal">
+        Turning complex B2B SaaS capabilities into<br />
+        <span class="hero__highlight" id="rotatingText">clear customer value</span>
+      </p>
+      <div class="hero__actions reveal">
+        <a href="#experience" class="btn btn--primary">View my work</a>
+        <a href="#contact" class="btn btn--ghost">Say hello</a>
+      </div>
+    </div>
+    <a href="#about" class="hero__scroll" aria-label="Scroll down">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M12 5v14M5 12l7 7 7-7"/>
+      </svg>
+    </a>
+  </section>
+
+  <!-- About -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="about__grid">
+        <div class="about__text reveal">
+          <span class="section__label">About</span>
+          <h2 class="section__title">AI-forward marketer.<br />Hands-on builder.</h2>
+          <p class="about__body">
+            I'm a Product Marketing Manager specialising in B2B SaaS — owning positioning, messaging, and product launches in fast-moving environments. I translate complex capabilities into clear customer value, partnering closely with Product, Sales, and founders to drive adoption and revenue.
+          </p>
+          <p class="about__body">
+            AI-forward and hands-on, I build practical systems that prioritise outcomes, accelerate execution, and improve performance. From automated lead engines to competitive intelligence agents, I combine strategic thinking with tactical execution.
+          </p>
+        </div>
+        <div class="about__stats reveal">
+          <div class="stat">
+            <span class="stat__number">15+</span>
+            <span class="stat__label">Product launches led</span>
+          </div>
+          <div class="stat">
+            <span class="stat__number">600–900</span>
+            <span class="stat__label">Sales-ready leads/month</span>
+          </div>
+          <div class="stat">
+            <span class="stat__number">3×</span>
+            <span class="stat__label">Release cadence improvement</span>
+          </div>
+          <div class="stat">
+            <span class="stat__number">~$425</span>
+            <span class="stat__label">Monthly stack cost for ICP engine</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="section section--alt" id="skills">
+    <div class="container">
+      <span class="section__label reveal">Skills</span>
+      <h2 class="section__title reveal">What I bring</h2>
+      <div class="skills__grid">
+
+        <div class="skill-card reveal">
+          <div class="skill-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M9 3H5a2 2 0 00-2 2v4m6-6h10a2 2 0 012 2v4M9 3v18m0 0h10a2 2 0 002-2v-4M9 21H5a2 2 0 01-2-2v-4m0 0h18"/>
+            </svg>
+          </div>
+          <h3 class="skill-card__title">Positioning &amp; Messaging</h3>
+          <p class="skill-card__body">Crafting narratives that resonate — from website copy to sales decks — translating product complexity into commercial clarity.</p>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"/>
+            </svg>
+          </div>
+          <h3 class="skill-card__title">Go-to-Market Strategy</h3>
+          <p class="skill-card__body">End-to-end GTM launches aligning Product, Sales, and Customer Success on scope, messaging, and measurable outcomes.</p>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/>
+            </svg>
+          </div>
+          <h3 class="skill-card__title">Customer Insights</h3>
+          <p class="skill-card__body">Structured research programmes — interviews, win/loss analysis, ICP profiling — that inform roadmap and sharpen differentiation.</p>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/>
+            </svg>
+          </div>
+          <h3 class="skill-card__title">Sales Enablement</h3>
+          <p class="skill-card__body">Building the decks, FAQs, battle cards, and training materials that give sales teams the confidence to close.</p>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <rect x="3" y="3" width="18" height="18" rx="2"/><path d="M9 9l6 6M15 9l-6 6"/>
+            </svg>
+          </div>
+          <h3 class="skill-card__title">AI-Driven Execution</h3>
+          <p class="skill-card__body">Deploying AI agents and automation stacks (Clay, Apify, Lemlist) that compress weeks of manual work into scalable, repeatable systems.</p>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/>
+              <polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/>
+            </svg>
+          </div>
+          <h3 class="skill-card__title">Cross-functional Leadership</h3>
+          <p class="skill-card__body">Connecting Product, Marketing, Sales, and CS — ensuring what is built is clearly understood, positioned, and adopted.</p>
+        </div>
+
+      </div>
+
+      <div class="tools reveal">
+        <p class="tools__label">Tools &amp; platforms I work with</p>
+        <div class="tools__tags">
+          <span class="tag">Clay</span>
+          <span class="tag">Apify</span>
+          <span class="tag">Lemlist</span>
+          <span class="tag">Notion</span>
+          <span class="tag">Figma</span>
+          <span class="tag">HubSpot</span>
+          <span class="tag">Linear</span>
+          <span class="tag">AI Agents</span>
+          <span class="tag">ChatGPT / Claude</span>
+          <span class="tag">Competitive Intel</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section class="section" id="experience">
+    <div class="container">
+      <span class="section__label reveal">Experience</span>
+      <h2 class="section__title reveal">Where I've worked</h2>
+
+      <div class="timeline">
+
+        <!-- TwinWorks -->
+        <div class="timeline__item reveal">
+          <div class="timeline__marker">
+            <div class="timeline__dot timeline__dot--active"></div>
+            <div class="timeline__line"></div>
+          </div>
+          <div class="timeline__card">
+            <div class="timeline__header">
+              <div>
+                <h3 class="timeline__role">Product Marketing Manager</h3>
+                <p class="timeline__company">TwinWorks <span class="timeline__type">B2B SaaS</span></p>
+                <p class="timeline__meta">Toulouse &nbsp;·&nbsp; Jan 2025 – Present</p>
+              </div>
+              <span class="timeline__badge timeline__badge--active">Current</span>
+            </div>
+            <ul class="timeline__achievements">
+              <li>Owned core positioning and messaging across website, product narratives, and sales materials — translating complex digital twin capabilities into clear operational and commercial outcomes.</li>
+              <li>Designed an automated ICP research engine using <strong>Clay, Apify, and Lemlist</strong> to generate <strong>600–900 sales-ready leads per month</strong> within a ~$425 monthly stack cost.</li>
+              <li>Deployed an AI-powered competitive intelligence agent to deliver weekly structured insights, directly informing positioning updates, campaign messaging, and differentiated sales narratives.</li>
+            </ul>
+            <div class="timeline__tags">
+              <span class="tag tag--sm">Positioning</span>
+              <span class="tag tag--sm">GTM</span>
+              <span class="tag tag--sm">AI Automation</span>
+              <span class="tag tag--sm">Lead Generation</span>
+              <span class="tag tag--sm">Competitive Intel</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Recollective -->
+        <div class="timeline__item reveal">
+          <div class="timeline__marker">
+            <div class="timeline__dot"></div>
+            <div class="timeline__line"></div>
+          </div>
+          <div class="timeline__card">
+            <div class="timeline__header">
+              <div>
+                <h3 class="timeline__role">Product Manager</h3>
+                <p class="timeline__company">Recollective Inc. <span class="timeline__type">B2B SaaS</span></p>
+                <p class="timeline__meta">Remote &nbsp;·&nbsp; Oct 2022 – Mar 2024</p>
+              </div>
+            </div>
+            <ul class="timeline__achievements">
+              <li>Joined as the <strong>first product hire</strong>, working directly with the CPO to build product discovery and GTM foundations from scratch.</li>
+              <li>Designed and led a structured customer research programme centred on weekly interviews, accelerating release cadence from <strong>quarterly to monthly</strong>.</li>
+              <li>Led end-to-end go-to-market launches for <strong>15+ product releases</strong>, aligning Product, Sales, and Customer teams on messaging, scope, and customer value.</li>
+              <li>Built launch assets including decks, FAQs, training materials, and internal enablement documentation supporting sales-assisted growth motions.</li>
+              <li>Acted as cross-functional connector between Product, Marketing, Sales, and Customer Success.</li>
+            </ul>
+            <div class="timeline__tags">
+              <span class="tag tag--sm">Product Discovery</span>
+              <span class="tag tag--sm">Customer Research</span>
+              <span class="tag tag--sm">15+ Launches</span>
+              <span class="tag tag--sm">Sales Enablement</span>
+              <span class="tag tag--sm">Roadmap</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section class="section section--alt" id="education">
+    <div class="container">
+      <span class="section__label reveal">Education &amp; Training</span>
+      <h2 class="section__title reveal">Building the foundation</h2>
+
+      <div class="edu__grid">
+
+        <div class="edu-card reveal">
+          <div class="edu-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/>
+            </svg>
+          </div>
+          <div class="edu-card__content">
+            <p class="edu-card__institution">McMaster University</p>
+            <h3 class="edu-card__degree">Honors Bachelor of Arts, Anthropology</h3>
+            <p class="edu-card__meta">Hamilton, Canada &nbsp;·&nbsp; 2013 – 2017</p>
+          </div>
+        </div>
+
+        <div class="edu-card reveal">
+          <div class="edu-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <circle cx="12" cy="8" r="6"/><path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/>
+            </svg>
+          </div>
+          <div class="edu-card__content">
+            <p class="edu-card__institution">Reforge</p>
+            <h3 class="edu-card__degree">Product Marketing Certification</h3>
+            <p class="edu-card__meta">Spring 2024</p>
+          </div>
+        </div>
+
+        <div class="edu-card reveal">
+          <div class="edu-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <circle cx="12" cy="8" r="6"/><path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/>
+            </svg>
+          </div>
+          <div class="edu-card__content">
+            <p class="edu-card__institution">Le Wagon</p>
+            <h3 class="edu-card__degree">Growth Marketing Certification</h3>
+            <p class="edu-card__meta">Fall 2024</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="contact__inner reveal">
+        <span class="section__label">Get in touch</span>
+        <h2 class="contact__title">Let's build something together</h2>
+        <p class="contact__body">
+          Whether you're scaling a B2B SaaS product, need sharper positioning, or want to deploy AI-driven systems that actually move the needle — I'd love to talk.
+        </p>
+        <a href="mailto:hello@sammacdonald.com" class="btn btn--primary btn--lg">Send me a message</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <p class="footer__name">Sam MacDonald</p>
+        <p class="footer__copy">Product Marketing Manager &nbsp;·&nbsp; B2B SaaS &nbsp;·&nbsp; Toulouse</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
